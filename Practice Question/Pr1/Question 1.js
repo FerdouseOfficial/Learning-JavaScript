@@ -10,3 +10,5 @@ console.log(product);
 console.log(typeof product);
 console.log(product.Product_name);
 console.log(product["Product_Rating"]);
+
+// Question no 2: Create a const object called "profile" to store information show in the picture.
