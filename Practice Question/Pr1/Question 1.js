@@ -7,3 +7,6 @@ const product = {
   Product_Discount: 5 % "off",
 };
 console.log(product);
+console.log(typeof product);
+console.log(product.Product_name);
+console.log(product["Product_Rating"])
