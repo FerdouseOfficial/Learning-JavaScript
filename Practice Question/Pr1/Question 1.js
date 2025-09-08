@@ -1,3 +1,5 @@
+// Chapter 01: Data Types
+
 // Question no 1: Create  a const object called "product" to store information show in the picture
 
 const product = {
