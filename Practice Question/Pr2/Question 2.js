@@ -161,5 +161,5 @@ a = 5
 if (a%2 == 0) {
     console.log(a ,"This is a ODD Nmber");
 }else{
-    console.log(a ,"This is a EVEN Number");
+    console.log(a ,"This is a EVEN Number ");
 }
