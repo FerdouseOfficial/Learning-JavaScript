@@ -13,12 +13,12 @@
  *   - Modulus (%): Returns the remainder after division.
  *   - Exponential (**): Raises the first operand to the power of the second.
  *
-**/
+ **/
 
 // let a = 5;
 // let b = 2;
 
-// console.log("a+b =", a + b); // Addition 
+// console.log("a+b =", a + b); // Addition
 // console.log("a-b =", a - b); // Subtraction
 // console.log("a*b =", a * b); // Multiplicatoin
 // console.log("a/b =", a / b); // Division
@@ -27,8 +27,8 @@
 
 // above, all the operators need two operand to perform their work
 
-                // But Unary Operator need only 01 //
-         
+// But Unary Operator need only 01 //
+
 //  * Unary Operator:
 //  * A unary operator only needs one operand to perform its operation.
 //  * উদাহরণস্বরূপ, ইউনারি অপারেটর শুধুমাত্র একটি মানের উপর কাজ করে।
@@ -41,7 +41,7 @@
 // a--;
 // console.log("a = " , a); //Decrement Operator
 
-                        // Explanation of Increment & Decrement //
+// Explanation of Increment & Decrement //
 
 //  * Unary Operators:
 //  *   - Increment (++) and Decrement (--): Increase or decrease a variable's value by one.
@@ -68,9 +68,7 @@
 //  * - Pre-Decrement (--a): 'a' এর মান আগে ১ কমে, তারপর ব্যবহার হয়।
 //  */
 
-
-
-                        // Assignment Operators // 
+// Assignment Operators //
 //   =, +=, -=, %=, **=
 
 // let a = 5;
@@ -88,8 +86,7 @@
 // a **= 3;
 // console.log("a = ", a);
 
-
-                    // Comparison Opeartor //
+// Comparison Opeartor //
 
 // ==, ===, !=, !==, >, >=, <, <=
 
@@ -109,15 +106,8 @@
 // console.log("a !== c", a !== c);
 // console.log(a>b, b<a, b<=a, b>a, b>=a)
 
-
-
-
-
-
-
-
-                    // Logical Opearators //
-            //  AND = && , OR = || , NOT = !
+// Logical Opearators //
+//  AND = && , OR = || , NOT = !
 
 // let a = 5;
 // let b = 2;
@@ -129,14 +119,7 @@
 // console.log(cond1 || cond2);
 // console.log(!(cond1 && cond2));
 
-
-
-
-
-
-
-
-                            // Conditional Statement //
+// Conditional Statement //
 
 // let age = 18;
 
@@ -156,10 +139,18 @@
 //     color = "White";
 // }
 // console.log(color)
-a = 5
+// a = 5;
 
-if (a%2 == 0) {
-    console.log(a ,"This is a ODD Nmber");
-}else{
-    console.log(a ,"This is a EVEN Number ");
-}
+// if (a % 2 == 0) {
+//   console.log(a, "This is a ODD Nmber");
+// } else {
+//   console.log(a, "This is a EVEN Number ");
+// }
+
+//       Ternary Operator        //
+
+// Conditon? "True Output": "False Output";
+let age = 14
+let result = age >= 18? "You can vote": "You cannot Vote";
+
+console.log(result)
