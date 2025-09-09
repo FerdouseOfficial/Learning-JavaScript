@@ -119,12 +119,47 @@
                     // Logical Opearators //
             //  AND = && , OR = || , NOT = !
 
-let a = 5;
-let b = 2;
+// let a = 5;
+// let b = 2;
 
-let cond1 = a>b;
-let cond2 = a == 5;
+// let cond1 = a>b;
+// let cond2 = a == 5;
 
-console.log(cond1 && cond2);
-console.log(cond1 || cond2);
-console.log(!(cond1 && cond2));
+// console.log(cond1 && cond2);
+// console.log(cond1 || cond2);
+// console.log(!(cond1 && cond2));
+
+
+
+
+
+
+
+
+                            // Conditional Statement //
+
+// let age = 18;
+
+// if(age >= 18) {
+//     console.log("You can Vote");
+// }
+// else{
+//     console.log("You cannot vote");
+// }
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark"){
+//     color = "black";
+// }else if (mode== "light"){
+//     color = "White";
+// }
+// console.log(color)
+a = 5
+
+if (a%2 == 0) {
+    console.log("This is a ODD Nmber");
+}else{
+    console.log("This is a EVEN Number");
+}

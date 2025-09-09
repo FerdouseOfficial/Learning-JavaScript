@@ -1,0 +1,2 @@
+I will create an input field where the user will input their age, and in the front-end, it will show whether they are able to vote or not.
+I will also create an input field whre the user will input Number, and in the front-end, it will show it's a odd or even Number.
