@@ -1,0 +1,1 @@
+I will create a color input field and they will choose the color of text and background. The color they will choose in the color palate will appear in the text and the background. Okay

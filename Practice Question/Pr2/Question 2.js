@@ -159,7 +159,7 @@
 a = 5
 
 if (a%2 == 0) {
-    console.log("This is a ODD Nmber");
+    console.log(a ,"This is a ODD Nmber");
 }else{
-    console.log("This is a EVEN Number");
+    console.log(a ,"This is a EVEN Number");
 }
