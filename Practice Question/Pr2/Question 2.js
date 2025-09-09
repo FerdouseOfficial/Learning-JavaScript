@@ -99,12 +99,32 @@
 
 // <, <=, >, >= : for simple comparison
 
+// let a = 5;
+// let b = 2;
+// let c = "5";
+
+// console.log("a == b", a==b);
+// console.log("a != b", a != b);
+// console.log("a === c", a === c);
+// console.log("a !== c", a !== c);
+// console.log(a>b, b<a, b<=a, b>a, b>=a)
+
+
+
+
+
+
+
+
+                    // Logical Opearators //
+            //  AND = && , OR = || , NOT = !
+
 let a = 5;
 let b = 2;
-let c = "5";
 
-console.log("a == b", a==b);
-console.log("a != b", a != b);
-console.log("a === c", a === c);
-console.log("a !== c", a !== c);
-console.log(a>b, b<a, b<=a, b>a, b>=a)
+let cond1 = a>b;
+let cond2 = a == 5;
+
+console.log(cond1 && cond2);
+console.log(cond1 || cond2);
+console.log(!(cond1 && cond2));
