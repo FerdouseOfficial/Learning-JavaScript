@@ -15,8 +15,8 @@
  *
 **/
 
-let a = 5;
-let b = 2;
+// let a = 5;
+// let b = 2;
 
 // console.log("a+b =", a + b); // Addition 
 // console.log("a-b =", a - b); // Subtraction
@@ -35,11 +35,11 @@ let b = 2;
 //  * For example, the increment (++) and decrement (--) operators are unary operators.
 //  */
 
-a++;
-console.log("a = ", a) // Increment Opeartor
+// a++;
+// console.log("a = ", a) // Increment Opeartor
 
-a--;
-console.log("a = " , a); //Decrement Operator
+// a--;
+// console.log("a = " , a); //Decrement Operator
 
                         // Explanation of Increment & Decrement //
 
@@ -69,3 +69,24 @@ console.log("a = " , a); //Decrement Operator
 //  */
 
 
+
+                        // Assignment Operators // 
+//   =, +=, -=, %=, **=
+
+let a = 5;
+let b = 2;
+
+// a += 4;
+// console.log("a = ", a);
+
+// a -= 2;
+// console.log("a =", a);
+
+// a %= 2;
+// console.log("a = ", a);
+
+// a **= 3;
+// console.log("a = ", a);
+
+
+                    // 
