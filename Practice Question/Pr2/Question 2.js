@@ -73,8 +73,8 @@
                         // Assignment Operators // 
 //   =, +=, -=, %=, **=
 
-let a = 5;
-let b = 2;
+// let a = 5;
+// let b = 2;
 
 // a += 4;
 // console.log("a = ", a);
@@ -89,4 +89,22 @@ let b = 2;
 // console.log("a = ", a);
 
 
-                    // 
+                    // Comparison Opeartor //
+
+// ==, ===, !=, !==, >, >=, <, <=
+
+// Simpler Version:- ==, !=. (Only Check the Values inside the Variable)
+
+// Stricter Version: ===, !==. (Not only check value also check the Data types of both . Are they matching or not)
+
+// <, <=, >, >= : for simple comparison
+
+let a = 5;
+let b = 2;
+let c = "5";
+
+console.log("a == b", a==b);
+console.log("a != b", a != b);
+console.log("a === c", a === c);
+console.log("a !== c", a !== c);
+console.log(a>b, b<a, b<=a, b>a, b>=a)
