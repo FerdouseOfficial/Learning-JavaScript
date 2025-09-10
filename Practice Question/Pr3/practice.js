@@ -99,3 +99,28 @@ console.log(str[2]);
 // for(let i of str) {
 //     console.log(i)
 // }
+
+// /////////////``````` Template Literals `````````````````////
+
+// :-> A way to have embedded expreessions in strings.
+
+// let specialString = `This is a template literal`;
+// console.log( typeof specialString)
+
+let obj = {
+  item: "Pen",
+  price: 10,
+};
+
+// here is the bad way of writing it
+
+// console.log("The cost of the ", obj.item , "is", obj.price);
+
+// Here is he correct way of writting it using Template literals Backtick sign
+
+// ``` this is Called String Interpolation ``````````````//
+
+// Interpolation :- To create strings by dooing substritution of placeholders
+
+content = `The cost of The ${obj.item} is ${obj.price} rupees.`;
+console.log(content);
