@@ -86,4 +86,5 @@
 let str= "ApnaCollege";
 let str2= 'Shradha';
 
-str.length();
+value = str.length;
+console.log(value)
