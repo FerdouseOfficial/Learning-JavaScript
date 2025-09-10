@@ -70,13 +70,20 @@
 
 // we use it for object
 
-let student = {
-    Name : 'Mijanur Rahman',
-    age : 20,
-    cgpa: 3.45,
-    isPass: true
-}
+// let student = {
+//     Name : 'Mijanur Rahman',
+//     age : 20,
+//     cgpa: 3.45,
+//     isPass: true
+// }
 
-for(let key in student) { 
-    console.log("key = ", key, "Value = ", student[key]);
-}
+// for(let key in student) {
+//     console.log("key = ", key, "Value = ", student[key]);
+// }
+
+// `````````````````` Strings ```````````````````//
+
+let str= "ApnaCollege";
+let str2= 'Shradha';
+
+str.length();
