@@ -83,8 +83,19 @@
 
 // `````````````````` Strings ```````````````````//
 
-let str= "ApnaCollege";
-let str2= 'Shradha';
+// 01. Create string
+let str = "ApnaCollege";
+let str2 = "Shradha";
 
+//String Length
 value = str.length;
-console.log(value)
+console.log(str2.length);
+console.log(value);
+
+// String Indices. `````` singular form: index, Plural:- Indices
+console.log(str[2]);
+
+// For array and strings we use for-of loops // and for object we use for-in loop
+// for(let i of str) {
+//     console.log(i)
+// }
