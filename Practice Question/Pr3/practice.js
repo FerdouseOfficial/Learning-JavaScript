@@ -84,16 +84,16 @@
 // `````````````````` Strings ```````````````````//
 
 // 01. Create string
-let str = "ApnaCollege";
-let str2 = "Shradha";
+// let str = "ApnaCollege";
+// let str2 = "Shradha";
 
 //String Length
-value = str.length;
-console.log(str2.length);
-console.log(value);
+// value = str.length;
+// console.log(str2.length);
+// console.log(value);
 
 // String Indices. `````` singular form: index, Plural:- Indices
-console.log(str[2]);
+// console.log(str[2]);
 
 // For array and strings we use for-of loops // and for object we use for-in loop
 // for(let i of str) {
@@ -107,10 +107,10 @@ console.log(str[2]);
 // let specialString = `This is a template literal`;
 // console.log( typeof specialString)
 
-let obj = {
-  item: "Pen",
-  price: 10,
-};
+// let obj = {
+//   item: "Pen",
+//   price: 10,
+// };
 
 // here is the bad way of writing it
 
@@ -122,5 +122,46 @@ let obj = {
 
 // Interpolation :- To create strings by dooing substritution of placeholders
 
-content = `The cost of The ${obj.item} is ${obj.price} rupees.`;
-console.log(content);
+// content = `The cost of The ${obj.item} is ${obj.price} rupees.`;
+// console.log(content);
+
+// ```````````````````` Escape Characters ```````````////////
+
+// \n,\t     e.t.c
+
+// remember escape character are count as a single character.
+
+// console.log("Apna\nCollege");
+
+/// ```````````` String Methods ``````````````````///
+
+// make all font toUpperCase
+// let str = "ApnaCollege";
+// game = str.toUpperCase();
+// console.log(game)
+
+// make all font toLowerCase
+// fun = str.toLowerCase();
+// console.log(fun)
+//
+//cut all spaces from start and end
+// Name = "              Mahin Sheikh          "
+// console.log(Name.trim())
+
+// / more stign Methods in js
+
+// str.slic(start,end)
+// str1.concat(str2)
+// str.replace(searchVal,newValu)
+// str.charAt(index)
+
+let str = "hello";
+let str2 = " love";
+//slice
+console.log(str.slice(1, 4));
+//concat
+console.log(str.concat(str2));
+//replace
+console.log(str.replaceAll("l","p"))
+// charat
+console.log(str.charAt(2))
