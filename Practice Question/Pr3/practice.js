@@ -155,13 +155,13 @@
 // str.replace(searchVal,newValu)
 // str.charAt(index)
 
-let str = "hello";
-let str2 = " love";
+// let str = "hello";
+// let str2 = " love";
 //slice
-console.log(str.slice(1, 4));
+// console.log(str.slice(1, 4));
 //concat
-console.log(str.concat(str2));
+// console.log(str.concat(str2));
 //replace
-console.log(str.replaceAll("l","p"))
+// console.log(str.replaceAll("l", "p"));
 // charat
-console.log(str.charAt(2))
+// console.log(str.charAt(2));
