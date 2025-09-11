@@ -66,10 +66,31 @@
 
 // Question. We are given array of marks of students. Filter out of the marks of the students that scroded 90+.
 
-let marks = [70, 50, 98, 95, 93, 90, 89, 84, 82, 73];
+// let marks = [70, 50, 98, 95, 93, 90, 89, 84, 82, 73];
 
-let topRanker = marks.filter((val) => {
-  return val>90;
+// let topRanker = marks.filter((val) => {
+//   return val>90;
+// });
+
+// console.log(topRanker);
+
+// Question 02:
+
+let n = prompt("Enter a Number : ");
+
+let arr = [];
+
+for (let i = 1; i <= n; i++) {
+  arr[i - 1] = i;
+}
+
+console.log(arr);
+let sum = arr.reduce((res, curr) => {
+  return res + curr;
 });
+console.log(sum);
 
-console.log(topRanker);
+let factorial = arr.reduce((res, curr) => {
+  return res * curr;
+});
+console.log(factorial);

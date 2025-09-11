@@ -107,7 +107,7 @@
 // creates a new array of elements that give tru for a condition/filter.
 // Eg: all even elements
 
-let arr = [1, 2, 40, 3, 4, 20, 345];
+// let arr = [1, 2, 40, 3, 4, 20, 345];
 
 // let EvenArr = arr.filter(function filterEven(val) {
 //   if(val%2 === 0){
@@ -128,9 +128,9 @@ let arr = [1, 2, 40, 3, 4, 20, 345];
 // only one input I mean for small output or for small result we use Reduce method
 // it has 2 parameters in it accumulator(result/Previous) , currentValue(value/currentone)
 
-let avg = arr.reduce((res, curr) => {
-  // return res + curr; // for avergae value
-  return res > curr ? res : curr; // show the largest number in the array
-});
+// let avg = arr.reduce((res, curr) => {
+//   // return res + curr; // for avergae value
+//   return res > curr ? res : curr; // show the largest number in the array
+// });
 
-console.log(avg);
+// console.log(avg);
