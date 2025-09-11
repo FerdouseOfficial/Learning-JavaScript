@@ -94,12 +94,30 @@
 
 // the diff between forEach and Map is Map create new array which forEach don't
 
-let nums = [23, 25, 12, 21];
+// let nums = [23, 25, 12, 21];
 
-let newNum = nums.map((val) => {
-  return (val ** 2);
-});
-console.log(newNum);
-console.log(nums);
+// let newNum = nums.map((val) => {
+//   return (val ** 2);
+// });
+// console.log(newNum);
+// console.log(nums);
 
-// ``````````````````` 
+// ````````````````````````````````` Filter Method ``````````````````````````````//
+
+// creates a new array of elements that give tru for a condition/filter.
+// Eg: all even elements
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// let EvenArr = arr.filter(function filterEven(val) {
+//   if(val%2 === 0){
+//     return(`${val} is Even`);
+//   }
+// });
+// console.log(EvenArr)
+
+// let newEvenArray = arr.filter((val) => {
+//   return val % 2 === 0;
+// });
+
+// console.log(newEvenArray)
