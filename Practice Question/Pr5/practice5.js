@@ -4,10 +4,25 @@
 // To create Functions we have to follow two step . 1. Funciton Definition & 2. Funciton Call
 
 // function myFunction(msg,n) {
-  // parameter -> input variable
-  // console.log("I am a Unbeatable Super Level Programmer");
-  // console.log("Welcome to Apna College! ");
+// parameter -> input variable
+// console.log("I am a Unbeatable Super Level Programmer");
+// console.log("Welcome to Apna College! ");
 // //   console.log(msg + n);
 // }
 // myFunction("I love javascript", 100); // arguement
 // myFunction()
+
+// Function -> 2 numbers, sum
+// Funciton parameters are Local Variables :- They are Block Scopes
+
+function sum(a, b) {
+  // console.log(a+b);
+  // Also we can use return keyword
+  s = a + b;
+  return s;
+  //   after return no code run . return is the last line of a funcitons.
+}
+let add = sum(23, 2);
+console.log(add);
+
+// ````````````````````````````` Arrow Functions ``````````````````````````````` ///
