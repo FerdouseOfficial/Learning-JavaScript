@@ -51,7 +51,14 @@
 
 let arr = [1,2,3,4,5,6,7];
 
-arr.forEach(function squareFunction(val, idx) {
+// arr.forEach(function squareFunction(val, idx) {
+//   square = val ** 2;
+//   console.log(`${idx+1} square is ${square}`)
+// });
+
+// solving using Array Function
+arr.forEach((val, idx) => {
   square = val ** 2;
-  console.log(`${idx+1} square is ${square}`)
+  result = `${idx+1} square is ${square}`;
+  console.log(result)
 });
