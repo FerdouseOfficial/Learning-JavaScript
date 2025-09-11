@@ -104,7 +104,7 @@
 // console.log(val);
 
 // Splice method
-let num = [1, 2, 3, 4, 5, 6, 7, 8];
+// let num = [1, 2, 3, 4, 5, 6, 7, 8];
 // val = num.splice(2, 4, "love", "Sucks");
 // console.log(val);
 // console.log(num);
@@ -118,4 +118,4 @@ let num = [1, 2, 3, 4, 5, 6, 7, 8];
 // num.splice(3,1)
 //  Replace Element
 // num.splice(3,1,102)
-console.log(num);
+// console.log(num);

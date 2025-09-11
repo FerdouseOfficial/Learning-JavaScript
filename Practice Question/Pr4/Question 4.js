@@ -1,4 +1,4 @@
-// Question 01:->
+//`````````````````````````````` Question 01:->`````````````````````````````
 
 // For a given array with marks of students -> [85,97,44,37,76,60]. Find the average marks of the enitrer class.
 
@@ -14,7 +14,7 @@
 // let average= sum / marks.length
 // console.log(average)
 
-// 111111111111111 Question 02:
+//``````````````````````````````````````Question 02: ```````````````````````````
 // For a given array with prcie of 5 items -> [250,645,300,900,50]. All items have an offer of 10% off on them. Change the array to store final praice after applying offter
 
 // let items = [250, 645, 300, 900, 50];
@@ -31,3 +31,11 @@
 //     items[i] -=offer;
 //     console.log(`Value after the offer is ${items[i]}`)
 // }
+
+// ```````````````````````````` Question 03:```````````````````````````````
+
+// Create an array to store comapnies -> "bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"
+
+let comapnies = ["bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
+
+let rem = comapnies.shift();
