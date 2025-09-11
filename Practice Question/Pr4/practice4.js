@@ -53,15 +53,15 @@
 //     console.log(hero)
 // }
 
-let cities = [
-  "Dhaka",
-  "Ranpur",
-  "Nageswari",
-  "Kurigram",
-  "Lalmonirhat",
-  "Chitagong",
-];
+// let cities = [
+//   "Dhaka",
+//   "Ranpur",
+//   "Nageswari",
+//   "Kurigram",
+//   "Lalmonirhat",
+//   "Chitagong",
+// ];
 
-for (let city of cities) {
-  console.log(city);
-}
+// for (let city of cities) {
+//   console.log(city);
+// }
