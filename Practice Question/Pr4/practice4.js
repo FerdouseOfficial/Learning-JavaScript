@@ -12,10 +12,27 @@ console.log(marks);
 console.log(marks.length);
 console.log(typeof marks);
 
+// printing value of marks using index.
+
+// console.log(marks[0])
+// console.log(marks[2])
+// console.log(marks[1])
+
+//Changing value of array
+// string is Immutable but array is mutable.
+console.log((marks[2] = 86));
+console.log(marks);
+
+//// `````````````````````````` Looping over an Array  ``````````````````````` ////
+//print all element of an array 
+
 // Applying Loops
 
-// In array we apply for - of loop . in object we apply for - in loop. remember it 
-for (let val of marks) {
-  console.log(val);
-}
- 
+// loops :- Iterable(string, object, arrays)
+
+// In array we apply for - of loop . in object we apply for - in loop. remember it
+// for (let val of marks) {
+//   console.log(val);
+// }
+
+let heroes = ["ironman",]
