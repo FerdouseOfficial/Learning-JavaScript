@@ -49,7 +49,7 @@
 
 // For a given Array of numbers, print the square  of each value using the forEach loop.
 
-let arr = [1,2,3,4,5,6,7];
+// let arr = [1,2,3,4,5,6,7];
 
 // arr.forEach(function squareFunction(val, idx) {
 //   square = val ** 2;
@@ -57,8 +57,8 @@ let arr = [1,2,3,4,5,6,7];
 // });
 
 // solving using Array Function
-arr.forEach((val, idx) => {
-  square = val ** 2;
-  result = `${idx+1} square is ${square}`;
-  console.log(result)
-});
+// arr.forEach((val, idx) => {
+//   square = val ** 2;
+//   result = `${idx+1} square is ${square}`;
+//   console.log(result)
+// });
