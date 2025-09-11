@@ -18,3 +18,4 @@ console.log(typeof marks);
 for (let val of marks) {
   console.log(val);
 }
+ 
