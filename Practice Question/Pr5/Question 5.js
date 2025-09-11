@@ -27,19 +27,19 @@
 
 // Using Arrow funciton
 
-let VowelsCounter = (str) => {
-  let count = 0;
-  for (let char of str) {
-    if (
-      char === "a" ||
-      char === "e" ||
-      char === "i" ||
-      char === "o" ||
-      char === "u"
-    ) {
-      count++;
-    }
-  }
-  console.log(count);
-};
-VowelsCounter("");
+// let VowelsCounter = (str) => {
+//   let count = 0;
+//   for (let char of str) {
+//     if (
+//       char === "a" ||
+//       char === "e" ||
+//       char === "i" ||
+//       char === "o" ||
+//       char === "u"
+//     ) {
+//       count++;
+//     }
+//   }
+//   console.log(count);
+// };
+// VowelsCounter("");
