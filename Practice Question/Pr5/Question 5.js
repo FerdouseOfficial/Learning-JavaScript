@@ -44,7 +44,6 @@
 // };
 // VowelsCounter("");
 
-
 // ``````````````````````````````` Question 03 `````````````````````````````` //
 
 // For a given Array of numbers, print the square  of each value using the forEach loop.
@@ -62,3 +61,15 @@
 //   result = `${idx+1} square is ${square}`;
 //   console.log(result)
 // });
+
+//`````````````````````````````` let Practice Questions ``````````````````````````//
+
+// Question. We are given array of marks of students. Filter out of the marks of the students that scroded 90+.
+
+let marks = [70, 50, 98, 95, 93, 90, 89, 84, 82, 73];
+
+let topRanker = marks.filter((val) => {
+  return val>90;
+});
+
+console.log(topRanker);
