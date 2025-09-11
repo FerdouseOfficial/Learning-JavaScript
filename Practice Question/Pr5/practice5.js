@@ -68,7 +68,7 @@
 // Array.forEach(callbackfunction)
 // callbackfunction: here , it is a function to execute for each element i the array
 // A callback is a function passed as an arguement to another function.
-// forEach only use for array not for other object and strings 
+// forEach only use for array not for other object and strings
 // let arr = [1, 2, 3, 4, 5];
 
 // applying forEach with Function
@@ -82,5 +82,24 @@
 //   console.log(val);
 // });
 
-
 // we can use 3 parameters on forEach loop : 1. the value/items, the index, the array itself
+
+// ``````````````````````````` Some More Array Methods  ````````````````````````````````//
+
+// we have learn this to make our life more easier in coding
+
+//``````````````````````   Map Method ``````````````````````````````````
+
+// create a new array with the results of some operation. The value its callback resturn are used to form new array.
+
+// the diff between forEach and Map is Map create new array which forEach don't
+
+let nums = [23, 25, 12, 21];
+
+let newNum = nums.map((val) => {
+  return (val ** 2);
+});
+console.log(newNum);
+console.log(nums);
+
+// ``````````````````` 
