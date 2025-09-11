@@ -14,12 +14,10 @@
 // let average= sum / marks.length
 // console.log(average)
 
-
 // 111111111111111 Question 02:
 // For a given array with prcie of 5 items -> [250,645,300,900,50]. All items have an offer of 10% off on them. Change the array to store final praice after applying offter
 
-let items = [250, 645, 300, 900, 50];
-
+// let items = [250, 645, 300, 900, 50];
 
 // let i=0;
 // for(let val of items) {
@@ -28,8 +26,8 @@ let items = [250, 645, 300, 900, 50];
 //     console.log(`value after offer = ${val}`)
 // }
 
-for(let i=0; i < items.length; i++) {
-    let offer = items[i] / 10;
-    items[i] -=offer;
-    console.log(`Value after the offer is ${items[i]}`)
-}
+// for(let i=0; i < items.length; i++) {
+//     let offer = items[i] / 10;
+//     items[i] -=offer;
+//     console.log(`Value after the offer is ${items[i]}`)
+// }

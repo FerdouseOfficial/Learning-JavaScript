@@ -65,3 +65,57 @@
 // for (let city of cities) {
 //   console.log(city);
 // }
+
+// ``````````````````````````` Arrays Methods in JS ``````````````````````````````//
+
+// let foodItem = ["Tomato", "Mango", "Litchi", "JackFruit", "Plum", "Carrot"];
+
+// console.log(foodItem);
+// Push() :- add element to the end
+// console.log(foodItem.push("Chips"));
+//POP()   :- delete from end
+// console.log(foodItem.pop())
+// console.log(foodItem)
+//toString():- convert it to string
+// console.log(oodItem.toString())
+
+// Concat:- concat multiple array
+
+// let marvelHeroes = [
+//   "Thor",
+//   "Captain America",
+//   "spiderman",
+//   "ironman",
+//   "Dr. Strange",
+// ];
+// let dcHeroes = ["superman", "batman"];
+
+// let concatination = marvelHeroes.concat(dcHeroes);
+// console.log(concatination);
+
+// Unshift & Shift :- add element in the start, delete element in the start
+
+// console.log(marvelHeroes.unshift("Antman"));
+// console.log(marvelHeroes);
+// console.log(dcHeroes.shift());
+
+// slice method
+// val = marvelHeroes.slice(1, 3);
+// console.log(val);
+
+// Splice method
+let num = [1, 2, 3, 4, 5, 6, 7, 8];
+// val = num.splice(2, 4, "love", "Sucks");
+// console.log(val);
+// console.log(num);
+
+//  we can use Splice to add, delete & Replace element using only splice
+
+//  Add Element
+// num.splice(2,0,102)
+
+//  Delete Element
+// num.splice(3,1)
+//  Replace Element
+// num.splice(3,1,102)
+console.log(num);
