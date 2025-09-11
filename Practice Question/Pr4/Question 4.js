@@ -36,6 +36,13 @@
 
 // Create an array to store comapnies -> "bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"
 
-let comapnies = ["bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
+let comapnies = ["bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+console.log(comapnies);
 
 let rem = comapnies.shift();
+console.log("Removing the first company = ", rem);
+console.log(comapnies);
+comapnies.splice(1, 1, "ola");
+console.log(comapnies);
+let add = comapnies.push("Amazon");
+console.log(comapnies);
