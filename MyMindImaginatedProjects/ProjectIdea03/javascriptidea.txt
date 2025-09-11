@@ -1,0 +1,1 @@
+I will create a program that will take input from user and it will tell user the result of 1 to N number okay.
