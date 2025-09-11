@@ -43,3 +43,15 @@
 //   console.log(count);
 // };
 // VowelsCounter("");
+
+
+// ``````````````````````````````` Question 03 `````````````````````````````` //
+
+// For a given Array of numbers, print the square  of each value using the forEach loop.
+
+let arr = [1,2,3,4,5,6,7];
+
+arr.forEach(function squareFunction(val, idx) {
+  square = val ** 2;
+  console.log(`${idx+1} square is ${square}`)
+});

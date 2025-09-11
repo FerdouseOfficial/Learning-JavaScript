@@ -69,18 +69,18 @@
 // callbackfunction: here , it is a function to execute for each element i the array
 // A callback is a function passed as an arguement to another function.
 // forEach only use for array not for other object and strings 
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
 // applying forEach with Function
-arr.forEach(function printValue(val) {
-  console.log(val);
-});
+// arr.forEach(function printValue(val) {
+//   console.log(val);
+// });
 
 // applying forEach with Array funciton
 
-arr.forEach((val) => {
-  console.log(val);
-});
+// arr.forEach((val) => {
+//   console.log(val);
+// });
 
 
 // we can use 3 parameters on forEach loop : 1. the value/items, the index, the array itself
