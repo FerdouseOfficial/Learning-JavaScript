@@ -1,4 +1,5 @@
 // Classes and Objects
+
 // const student = {
 //   fullName: "Jihad Molla",
 //   marks: 95.2,
@@ -6,8 +7,6 @@
 //     console.log(`marks = ${this.marks}`);
 //   },
 // };
-
-
 
 // const employee = {
 //   calcTax() {
@@ -39,3 +38,41 @@
 // mijanur4.__proto__ = employee;
 
 // Practicing concepts of Classes:-
+
+// class ToyotaCar {
+//   start() {
+//     console.log("Start");
+//   }
+
+//   stop() {
+//     console.log("Stop");
+//   }
+//   setBrand(brand) {
+//     this.brandName = brand;
+//   }
+// }
+
+// let Supra = new ToyotaCar();
+// Supra.brandName = "Supra";
+// let Fortuner = new ToyotaCar();
+// Fortuner.brandName = "Fortuner";
+//
+
+// function myfunc() {
+//   var _names = "Hasan";
+//   console.log(_name);
+// }
+// // console.log(myfunc)
+// // myfunc()
+
+// console.log(typeof (5 + 10));
+
+// Now Practicing
+
+class Parent {
+  hello() {
+    console.log("hello World");
+  }
+}
+
+class Child extends Parent
