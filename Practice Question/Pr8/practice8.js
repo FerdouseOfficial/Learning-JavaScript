@@ -140,8 +140,15 @@ function getData(dataId, getNextData) {
 // })
 
 // here we will solve using Async-Await:-
+// Async-Await
 
-
+// async function getAllData() {
+//   await getData(1);
+//   await getData(2);
+//   await getData(3);
+//   await getData(4);
+// }
+// getAllData()
 
 // Practing promises in simple way
 
@@ -194,15 +201,15 @@ function getData(dataId, getNextData) {
 //   });
 // });
 
-function api() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      console.log("weather data");
-      resolve(200);
-    }, 2000);
-  });
-}
+// function api() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("weather data");
+//       resolve(200);
+//     }, 2000);
+//   });
+// }
 
-async function getWeatherData() {
-  await api();
-}
+// async function getWeatherData() {
+//   await api();
+// }
