@@ -98,16 +98,42 @@
 // function getData(dataId, getNextData) {
 //   return new Promise((resolve, reject) => {
 //     setTimeout(() => {
-//       console.log(`Data ${dataId}`);
+//       console.log(`Data = ${dataId}`);
 //       resolve("success");
 //       if (getNextData) {
 //         getNextData();
 //       }
-//     });
+//     }, 2000);
 //   });
 // }
+// getData(1)
+//   .then(() => {
+//     return getData(2);
+//   })
+//   .then(() => {
+//     return getData(3);
+//   })
+//   .then(() => {
+//     return getData(4);
+//   })
+//   .then(() => {
+//     return getData(5);
+//   })
+//   .then(() => {
+//     return getData(6);
+//   });
 
-let promise = new Promise((resolve, reject) => {
-  console.log("I am a promise");
-  reject("Some error occured");
+
+// Practing promises in simple way
+
+const getPromise = () => {
+  return new Promise((resolve, reject) => {
+    console.log("I am a promise");
+    resolve("success");
+  });
+};
+
+let promise = getPromise();
+promise.then(() => {
+  console.log("promise fulfilled");
 });
