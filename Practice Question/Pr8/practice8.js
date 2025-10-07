@@ -18,12 +18,40 @@
 
 // calculator(1, 2, sum);
 
-function getData(dataId) {
+// function getData(dataId, getNextData) {
+//   setTimeout(() => {
+//     console.log(`data = ${dataId}`);
+//     getNextData();
+//   }, 2000);
+// }
+
+// getData(1, getData(2));
+
+// function getData(dataId, getNextData) {
+//   setTimeout(() => {
+//     console.log(`data = ${dataId}`);
+//     getNextData();
+//   }, 2000);
+// }
+
+// getData(1, () => {
+//     getData(2)
+// });
+
+function getData(dataId, getNextData) {
   setTimeout(() => {
     console.log(`data = ${dataId}`);
+    if (getNextData) {
+      getNextData();
+    }
   }, 2000);
 }
 
-getData(23);
-getData(2);
-getData(3);
+// This is called callback hell
+getData(1, () => {
+  getData(2, () => {
+    getData(3, () => {
+      getData(4);
+    });
+  });
+});
