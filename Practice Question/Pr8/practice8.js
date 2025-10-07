@@ -96,17 +96,17 @@
 // })
 
 // here is how we will solve it
-function getData(dataId, getNextData) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      console.log(`Data = ${dataId}`);
-      resolve("success");
-      if (getNextData) {
-        getNextData();
-      }
-    }, 2000);
-  });
-}
+// function getData(dataId, getNextData) {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log(`Data = ${dataId}`);
+//       resolve("success");
+//       if (getNextData) {
+//         getNextData();
+//       }
+//     }, 2000);
+//   });
+// }
 // getData(1)
 //   .then(() => {
 //     return getData(2);
@@ -190,3 +190,4 @@ function getData(dataId, getNextData) {
 //     console.log(res);
 //   });
 // });
+
