@@ -75,15 +75,15 @@
 
 //  Solving the callback hell problem with promises
 
-function getData(dataId, getNextData) {
-  setTimeout(() => {
-    console.log(`Data = ${dataId}`);
-    if (getNextData) {
-      getNextData();
-    }
-  }, 2000);
-}
-getData();
+// function getData(dataId, getNextData) {
+//   // here when we will use promise we don't need this getnextdata of the condition.
+//   setTimeout(() => {
+//     console.log(`Data = ${dataId}`);
+//     if (getNextData) {
+//       getNextData();
+//     }
+//   }, 2000);
+// }
 
 // // here is the callback hell
 
@@ -96,17 +96,17 @@ getData();
 // })
 
 // here is how we will solve it
-// function getData(dataId, getNextData) {
-//   return new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//       console.log(`Data = ${dataId}`);
-//       resolve("success");
-//       if (getNextData) {
-//         getNextData();
-//       }
-//     }, 2000);
-//   });
-// }
+function getData(dataId, getNextData) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log(`Data = ${dataId}`);
+      resolve("success");
+      if (getNextData) {
+        getNextData();
+      }
+    }, 2000);
+  });
+}
 // getData(1)
 //   .then(() => {
 //     return getData(2);
@@ -123,6 +123,22 @@ getData();
 //   .then(() => {
 //     return getData(6);
 //   });
+
+// Also here is a more shorten way of doing that
+
+// 0000000000000000000000000000000000000000000000
+
+// getData(1).then((res) => {
+//   console.log(res);
+//   getData(2). then(() => {
+//     getData(3).then(() => {
+//       getData(4).then(() => {
+
+//       })
+//     })
+//   })
+// })
+
 
 // Practing promises in simple way
 
