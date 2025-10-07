@@ -69,10 +69,3 @@
 
 // Now Practicing
 
-class Parent {
-  hello() {
-    console.log("hello World");
-  }
-}
-
-class Child extends Parent
