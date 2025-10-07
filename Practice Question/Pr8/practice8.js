@@ -108,5 +108,6 @@
 // }
 
 let promise = new Promise((resolve, reject) => {
-  console.log("I ma ")
-})
+  console.log("I am a promise");
+  reject("Some error occured");
+});
