@@ -123,17 +123,20 @@
 //     return getData(6);
 //   });
 
-
 // Practing promises in simple way
 
 const getPromise = () => {
   return new Promise((resolve, reject) => {
     console.log("I am a promise");
-    resolve("success");
+    // resolve("success");
+    reject("fail");
   });
 };
 
 let promise = getPromise();
+promise.catch(() => {
+  console.log("Failed for error");
+});
 promise.then(() => {
   console.log("promise fulfilled");
 });
