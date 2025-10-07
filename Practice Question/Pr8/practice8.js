@@ -96,17 +96,17 @@
 // })
 
 // here is how we will solve it
-// function getData(dataId, getNextData) {
-//   return new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//       console.log(`Data = ${dataId}`);
-//       resolve("success");
-//       if (getNextData) {
-//         getNextData();
-//       }
-//     }, 2000);
-//   });
-// }
+function getData(dataId, getNextData) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log(`Data = ${dataId}`);
+      resolve("success");
+      if (getNextData) {
+        getNextData();
+      }
+    }, 2000);
+  });
+}
 // getData(1)
 //   .then(() => {
 //     return getData(2);
@@ -138,6 +138,9 @@
 //     })
 //   })
 // })
+
+// here we will solve using Async-Await:-
+
 
 
 // Practing promises in simple way
@@ -191,3 +194,15 @@
 //   });
 // });
 
+function api() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log("weather data");
+      resolve(200);
+    }, 2000);
+  });
+}
+
+async function getWeatherData() {
+  await api();
+}
