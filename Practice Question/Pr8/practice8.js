@@ -125,18 +125,21 @@
 
 // Practing promises in simple way
 
-const getPromise = () => {
-  return new Promise((resolve, reject) => {
-    console.log("I am a promise");
-    // resolve("success");
-    reject("fail");
-  });
-};
+// const getPromise = () => {
+//   return new Promise((resolve, reject) => {
+//     console.log("I am a promise");
+//     // resolve("success");
+//     reject("fail");
+//   });
+// };
 
-let promise = getPromise();
-promise.catch(() => {
-  console.log("Failed for error");
-});
-promise.then(() => {
-  console.log("promise fulfilled");
-});
+// let promise = getPromise();
+// promise.catch(() => {
+//   console.log("Failed for error");
+// });
+// promise.then(() => {
+//   console.log("promise fulfilled");
+// });
+
+
+// Promise Chain 
