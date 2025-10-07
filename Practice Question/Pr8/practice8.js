@@ -47,7 +47,7 @@
 //   }, 2000);
 // }
 
-// // This is called callback hell 
+// // This is called callback hell
 // getData(1, () => {
 //   getData(2, () => {
 //     getData(3, () => {
@@ -56,5 +56,9 @@
 //   });
 // });
 
+// Promises
 
-
+let promise = new Promise((resolve, reject) => {
+  console.log("I am a promise");
+  reject("some error occured");
+});
