@@ -42,6 +42,16 @@
 //   setTimeout(() => {
 //     console.log(`data = ${dataId}`);
 //     if (getNextData) {
+// ------------------------------------------------
+// this block is for explanation :
+// Super simple analogy:
+
+// Thing	Analogy
+// getNextData	A closed gift box (may have a gift inside)
+// getNextData()	Open the box to use the gift
+// if (getNextData)	Check if there is a box first
+// else	Not needed — if there’s no box, just skip
+// --------------------------------------------------------
 //       getNextData();
 //     }
 //   }, 2000);
@@ -58,7 +68,45 @@
 
 // Promises
 
+// let promise = new Promise((resolve, reject) => {
+//   console.log("I am a promise");
+//   reject("some error occured");
+// });
+
+//  Solving the callback hell problem with promises
+
+// function getData(dataId, getNextData) {
+//     setTimeout(() => {
+//         console.log(`Data = ${dataId}`);
+//         if(getNextData) {
+//             getNextData();
+//         }
+//     }, 2000)
+// }
+
+// // here is the callback hell
+
+// getData(2, () => {
+//     getData(3, () => {
+//         getData(4, () => {
+//             getData(5)
+//         })
+//     })
+// })
+
+// here is how we will solve it
+// function getData(dataId, getNextData) {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log(`Data ${dataId}`);
+//       resolve("success");
+//       if (getNextData) {
+//         getNextData();
+//       }
+//     });
+//   });
+// }
+
 let promise = new Promise((resolve, reject) => {
-  console.log("I am a promise");
-  reject("some error occured");
-});
+  console.log("I ma ")
+})
