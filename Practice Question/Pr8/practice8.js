@@ -75,14 +75,15 @@
 
 //  Solving the callback hell problem with promises
 
-// function getData(dataId, getNextData) {
-//     setTimeout(() => {
-//         console.log(`Data = ${dataId}`);
-//         if(getNextData) {
-//             getNextData();
-//         }
-//     }, 2000)
-// }
+function getData(dataId, getNextData) {
+  setTimeout(() => {
+    console.log(`Data = ${dataId}`);
+    if (getNextData) {
+      getNextData();
+    }
+  }, 2000);
+}
+getData();
 
 // // here is the callback hell
 
@@ -141,5 +142,35 @@
 //   console.log("promise fulfilled");
 // });
 
+//        Promise Chain
 
-// Promise Chain 
+// -0-------------------------
+// function asynFunction() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("Some data1");
+//       resolve("It's Succeed");
+//     }, 2000);
+//   });
+// }
+
+// function asynFunction2() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("Some data2");
+//       resolve("Succeed");
+//     }, 4000);
+//   });
+// }
+
+// console.log("Fetching data 1 ");
+// let p1 = asynFunction();
+
+// p1.then((res) => {
+//   console.log(res);
+//   console.log("Fetching Data 2");
+//   let p2 = asynFunction2();
+//   p2.then((res) => {
+//     console.log(res);
+//   });
+// });
