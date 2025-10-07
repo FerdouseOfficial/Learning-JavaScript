@@ -12,13 +12,13 @@
 
 // let obj = new Child();
 
-class Person {
-  constructor() {
-    this.species = "homo sapiens";
-  }
-  eat() {
-    console.log("eat");
-  }
+// class Person {
+//   constructor() {
+//     this.species = "homo sapiens";
+//   }
+//   eat() {
+//     console.log("eat");
+//   }
 
   // sleep() {
   //   console.log("sleep");
@@ -27,7 +27,7 @@ class Person {
   // work() {
   //   console.log("Do nothing");
   // }
-}
+// }
 
 // class Doctor extends Person {
 //   work() {
@@ -35,11 +35,12 @@ class Person {
 //   }
 // }
 
-class Engineer extends Person {
-  work() {
-    console.log("Solve problems, build something");
-  }
-}
+// class Engineer extends Person {
+//   work() {
+//     console.log("Solve problems, build something");
+//   }
+// }
 
-let jihad = new Doctor();
-let jihadObj = new Engineer();
+// let jihad = new Doctor();
+// let jihadObj = new Engineer();
+
