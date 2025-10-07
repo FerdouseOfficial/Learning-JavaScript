@@ -18,3 +18,12 @@
 
 // calculator(1, 2, sum);
 
+function getData(dataId) {
+  setTimeout(() => {
+    console.log(`data = ${dataId}`);
+  }, 2000);
+}
+
+getData(23);
+getData(2);
+getData(3);
