@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  gap: 1rem;
+}
+input {
+  padding: 13px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  color: black;
+  font-size: 16px;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
